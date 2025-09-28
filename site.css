@@ -173,3 +173,13 @@ html {
     background-color: #556B2F !important;
     color:#fff;
   }
+
+  .required::after { content:" *"; color:#b42318; }
+
+  .field-error { color:#b42318; }
+
+  :focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+
+  footer a {
+    text-decoration: none;  /* removes the underline */
+  }
